@@ -1,0 +1,209 @@
+#was to concat the list value and tuple value by using type casting.
+l=[10,20,30,40,50]
+j=('a','b','c','d')
+res=l+list(j)
+print(res)
+
+l=[10,20,30,40,50]
+j=('a','b','c','d')
+res=tuple(l)+j
+print(res)
+
+l=[10,20,30,40,50]
+j=('a','b','c','d')
+l+=list(j)
+print(l)
+
+l=[10,20,30,40,50]
+j=('a','b','c','d')
+j+=tuple(l)
+print(j)
+
+#was to concat the list value and tuple value by not using type casting.
+l=['a','b','c','d']
+t=(1,2,3,4,5,6)
+l+=t#we cannot concat the tuple by using this process.
+print(l)
+
+
+#was to the given number is divisible by 3.
+n=15
+res=n%3==0
+print(res)
+
+#was to the given number which is divisible by 2&6.
+n=16
+res=n%2==0 and n%6==0
+print(res)
+
+#wap to extract the last digit from given integer number, without using typecasting.
+n=1569
+res=n%10
+print(res)
+
+n=1569
+a=n%100#for last 2 digits
+print(a)
+
+n=1569
+res=n%1000
+print(res)
+
+n=1569
+res=n%10000
+print(res)
+
+n=1569#to get last second num only
+res=(n%100)//10
+print(res)
+
+#was to the given integer number , the last digit is divisible by 3.(without using typecasting)
+n=1569
+res=n//10
+print(res)
+
+n=1569
+res=n//100
+print(res)
+
+n=1569
+res=n//1000
+print(res)
+
+n=1569
+res=n//10000
+print(res)
+
+#wap to extract the last second digit number from the given integer (without using typecasting)
+n=1879
+res=(n%100)//10
+print(res)
+
+n=1879
+res=(n%1000)//100
+print(res)
+
+#wap to the given number, the last digit is divisible by 3.(without using type casting).
+n=1569
+res=((n%10)%3)==0
+print(res)
+
+#wacto check the last digit is divisible by 3 from the given integer number with typecasting.
+n=1569
+res=int(str(n)[-1])
+print(res,type(res))
+
+n=1569
+res=str(n)[-1]
+print(res,type(res))
+
+res1=(int(str(n)[-1])%3)==0
+print(res,type(res))
+
+#wac to the given number is greater than 150
+n=420
+res=n>150
+print(res)
+
+#wac to check the given number is greater than or equal to 100
+n=420
+res=n>100
+print(res)
+
+#wae the given number is less than or equal to 150.
+n=420
+res=(n<150)
+print(res)
+
+#waeto check the given number is less than or equal to 150.
+n=420
+res=(n<=150)
+print(res)
+
+#wae to check the given number is greater than 15 &>24
+n=20
+res=(n>15 and n<24)
+print(res)
+
+n=20
+res=(15<n and n<24)
+print(res)
+
+n=20
+res=(15<n<24)
+print(res)
+
+#wae to given number is even.
+n=18
+n=(n%2==0)
+print(res)
+
+#wae to given number is odd.
+n=18
+res=(n%2!=0)
+print(res)
+
+n=18
+res=not(n%2==0)
+print(res)
+
+#wae to perform the multiplication at agiven string with 6 times.
+n="hai"
+res=(n*6)
+print(res)
+
+#wae tothe given is divisible by 3 and also the number should be greater than 22.
+n=29
+res=(n%3==0) and (n<22)
+print(res)
+
+#wac to perform the length of the collection is even or not.
+l="helloworld"
+res=(len(l)%2==0)
+print(res)
+
+#wac to check the length of the collection is < 56 and > 16.
+n="*"*52
+res=(16<len(n)<55)
+print(res)
+
+#wae to check the length of the collection is dividing by 5 and odd.
+n="helloworldhaiii"
+res=(len(n)%5==0 and len(n)%2!=0)
+print(res)
+
+#wae to extract the middle position of a given collection (str,list,tuple).
+s="pyspiders"
+res=s[len(s)//2]
+print(res)
+
+s=[100,200,300]
+res=s[len(s)//2]
+print(res)
+
+s=[20,50,'v']
+res=s[len(s)//2]
+print(res)
+
+#wae to check the given number is greater than 20 and less than 30 and it should be even.
+n=26
+res=(20<n<30)and(n%2==0)
+print(res)
+
+#wee to the given number is even and it should be less than 120.
+n=60
+res=(n%2==0) and (n<120)
+print(res)
+
+#wae to the given number is even and present from 40 to 70.
+n=60
+res=(40<n<70)and(n%2==0)
+print(res)
+
+#wae to the given number is odd it should be greater than 97.
+n=99
+res=(n>97)and(n%2!=0)
+print(res)
+ 
+
+
